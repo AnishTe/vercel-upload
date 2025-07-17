@@ -1,0 +1,11 @@
+nationality and country code, marital_status, residential_status missmatch field
+Electronic Confirmation, flag switch error issue
+handle BranchCode in sign in up
+
+*********************************************************************************************************************
+
+Changes: 
+2. Online/Offline based condition hide the BO Details and Flags from personal-details
+3. toast msg are not dislayed correctly
+
+*********************************************************************************************************************

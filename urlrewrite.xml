@@ -1,0 +1,7 @@
+<urlrewrite>
+    <!-- Redirect all requests to index.html -->
+    <rule>
+        <from>^/(.*)$</from>
+        <to>/index.html</to>
+    </rule>
+</urlrewrite>

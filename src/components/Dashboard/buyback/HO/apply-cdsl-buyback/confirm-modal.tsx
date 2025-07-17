@@ -1,0 +1,44 @@
+import {Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter, DialogDescription} from "@/components/ui/dialog"
+import { Button } from "@/components/ui/button"
+import type { ColumnDef } from "@tanstack/react-table"
+import { DataTable } from "@/components/DataTable"
+
+type ConfirmModalProps = {
+  selectedRows: any[]
+  onConfirm: () => void
+  onClose: () => void
+}
+
+const columns: ColumnDef<any>[] = [
+  {
+    id: "quantity",
+    accessorKey: "applied",
+    header: "Quantity",
+  },
+  {
+     id: "clientId",
+      accessorKey: "clientId",
+      header: "Client ID",
+  },
+]
+
+export function ConfirmModal({ selectedRows, onConfirm, onClose }: ConfirmModalProps) {
+  return (
+    <Dialog open={true} onOpenChange={onClose}>
+      <DialogContent>
+        <DialogHeader>
+          <DialogTitle>Confirm Buyback</DialogTitle>
+          <DialogDescription>Are you sure you want to buyback?</DialogDescription>
+        </DialogHeader>
+        <DataTable columns={columns} data={selectedRows} showAllRows={false} />
+        <DialogFooter>
+          <Button variant="outline" onClick={onClose}>
+            Cancel
+          </Button>
+          <Button onClick={onConfirm}>Confirm</Button>
+        </DialogFooter>
+      </DialogContent>
+    </Dialog>
+  )
+}
+

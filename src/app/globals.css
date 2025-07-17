@@ -1,0 +1,166 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "datatables.net-dt/css/dataTables.dataTables.css";
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+  :root {
+    --background: 180 30% 99%;
+    --foreground: 200 20% 20%;
+
+    /* Card & Popover - Subtle blue tint */
+    --card: 180 30% 99%;
+    --card-foreground: 200 20% 20%;
+    --popover: 180 30% 99%;
+    --popover-foreground: 200 20% 20%;
+
+    /* Primary - Derived from logo teal */
+    --primary: 174 45% 45%;
+    --primary-foreground: 180 30% 99%;
+
+    /* Secondary - Soft neutral */
+    --secondary: 200 20% 96%;
+    --secondary-foreground: 200 20% 20%;
+
+    /* Muted - Gentle gray with slight teal tint */
+    --muted: 180 10% 94%;
+    --muted-foreground: 200 10% 45%;
+
+    /* Accent - Soft orange from logo */
+    --accent: 12 90% 65%;
+    --accent-foreground: 180 30% 99%;
+
+    /* Destructive - Muted red */
+    --destructive: 0 75% 60%;
+    --destructive-foreground: 180 30% 99%;
+
+    /* Borders & Inputs */
+    --border: 180 15% 90%;
+    --input: 180 15% 90%;
+    --ring: 174 45% 45%;
+
+    /* Chart Colors - Based on logo */
+    --chart-1: 174 45% 45%; /* Teal */
+    --chart-2: 12 90% 65%; /* Orange */
+    --chart-3: 265 100% 66%; /* Purple */
+    --chart-4: 217 100% 65%; /* Blue */
+    --chart-5: 174 35% 55%; /* Light Teal */
+
+    /* Sidebar */
+    --sidebar-background: 180 30% 99%;
+    --sidebar-foreground: 200 20% 20%;
+    --sidebar-primary: 174 45% 45%;
+    --sidebar-primary-foreground: 180 30% 99%;
+    --sidebar-accent: 200 35% 85%;
+    --sidebar-accent-foreground: 200 20% 20%;
+    --sidebar-border: 180 15% 90%;
+    --sidebar-ring: 174 45% 45%;
+
+    --radius: 0.5rem;
+
+    --scrollbar-thumb: rgba(0, 0, 0, 0.4);
+  }
+
+  .dark {
+    --background: 0 0% 0%;
+    --foreground: 0 0% 100%;
+
+    /* Card & Popover - Pure black */
+    --card: 0 0% 0%;
+    --card-foreground: 0 0% 100%;
+    --popover: 0 0% 0%;
+    --popover-foreground: 0 0% 100%;
+
+    /* Primary - White */
+    --primary: 0 0% 100%;
+    --primary-foreground: 0 0% 0%;
+
+    /* Secondary - Dark gray */
+    --secondary: 0 0% 10%;
+    --secondary-foreground: 0 0% 100%;
+
+    /* Muted - Dark gray */
+    --muted: 0 0% 10%;
+    --muted-foreground: 0 0% 70%;
+
+    /* Accent - Light gray */
+    --accent: 0 0% 20%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Destructive - Red */
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Borders & Inputs */
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 0 0% 100%;
+
+    /* Chart Colors - Grayscale */
+    --chart-1: 0 0% 100%;
+    --chart-2: 0 0% 80%;
+    --chart-3: 0 0% 60%;
+    --chart-4: 0 0% 40%;
+    --chart-5: 0 0% 20%;
+
+    /* Sidebar */
+    --sidebar-background: 0 0% 0%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 0 0% 100%;
+    --sidebar-primary-foreground: 0 0% 0%;
+    --sidebar-accent: 0 0% 10%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 0 0% 20%;
+    --sidebar-ring: 0 0% 100%;
+
+    --scrollbar-thumb: rgba(255, 255, 255, 0.4);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  /* Apply scrollbar styles to all elements */
+  *::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-thumb);
+    border-radius: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  /* Ensure dialogs have the custom scrollbar */
+  .dialog-content {
+    scrollbar-width: thin;
+    scrollbar-color: var(--scrollbar-thumb) transparent;
+  }
+
+  .dialog-content::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  .dialog-content::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-thumb);
+    border-radius: 10px;
+  }
+
+  .dialog-content::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+}

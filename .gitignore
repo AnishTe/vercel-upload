@@ -37,7 +37,7 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-.env
-package.json
-package-lock.json
-/src/api/auth.js
+# .env
+# package.json
+# package-lock.json
+# /src/api/auth.js

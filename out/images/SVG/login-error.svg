@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <style>
+    .st0{fill:#F3F4F6;}
+    .st1{fill:#E5E7EB;}
+    .st2{fill:#D1D5DB;}
+    .st3{fill:#9CA3AF;}
+    .st4{fill:#6B7280;}
+  </style>
+  <circle class="st0" cx="250" cy="250" r="250"/>
+  <path class="st1" d="M425,175H75c-8.3,0-15,6.7-15,15v170c0,8.3,6.7,15,15,15h350c8.3,0,15-6.7,15-15V190C440,181.7,433.3,175,425,175z"/>
+  <path class="st2" d="M410,190H90c-2.8,0-5,2.2-5,5v140c0,2.8,2.2,5,5,5h320c2.8,0,5-2.2,5-5V195C415,192.2,412.8,190,410,190z"/>
+  <circle class="st3" cx="250" cy="265" r="40"/>
+  <path class="st4" d="M250,315c-33.1,0-60,26.9-60,60v10h120v-10C310,341.9,283.1,315,250,315z"/>
+  <rect x="85" y="355" class="st3" width="330" height="20"/>
+</svg>
+

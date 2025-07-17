@@ -23,7 +23,7 @@ import { format } from "date-fns"
 import { useToast } from "@/hooks/use-toast"
 import { cn } from "@/lib/utils"
 import { useKYC } from "@/contexts/kyc-context"
-import { GenerateOtpKYC, panCheckKYC, SignInUpKYC, VerifyOtpKYC } from "@/api/auth"
+import { GenerateOtpKYC, panCheckKYC, SignInUpKYC, VerifyOtpKYC } from "@/lib/auth"
 import { setLocalStorage } from "@/utils/localStorage"
 import { DatePickerField } from "../Dashboard/UI_Components/datePicker"
 

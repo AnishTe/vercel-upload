@@ -7,7 +7,7 @@ import Cookies from "js-cookie"
 
 import { Button } from "@/components/ui/button"
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog"
-import { logout } from "@/api/auth"
+import { logout } from "@/lib/auth"
 import { getLocalStorage, removeLocalStorage } from "@/utils/localStorage"
 import { getCompatibleUrl } from "@/utils/url-helpers"
 

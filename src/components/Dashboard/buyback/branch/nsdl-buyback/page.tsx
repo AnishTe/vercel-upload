@@ -23,7 +23,7 @@ import {
   getNSDLBuybackOrdersBranch,
   applyforNSDLBuybackBranch,
   deleteNSDLBuybackOrdersBranch,
-} from "@/api/auth";
+} from "@/lib/auth";
 import {
   FileIcon,
   Trash2,

@@ -1,7 +1,7 @@
 "use client"
 
 import { FileText } from "lucide-react"
-import { marginUtilizationAlertForSpecificScripts, runClientMarginUtilizationAlert, runClientMarginUtilizationAlertTest } from "@/api/auth"
+import { marginUtilizationAlertForSpecificScripts, runClientMarginUtilizationAlert, runClientMarginUtilizationAlertTest } from "@/lib/auth"
 import OperationDashboard from "@/components/operation-dashboard"
 
 export default function WhatsappAlertClientMargin() {

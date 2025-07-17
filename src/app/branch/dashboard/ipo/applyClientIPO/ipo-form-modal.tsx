@@ -27,7 +27,7 @@ import { AlertCircle, ArrowLeft, Check, CheckCircle, CreditCard, Search, User } 
 import { Avatar, AvatarFallback } from "@/components/ui/avatar"
 import { Badge } from "@/components/ui/badge"
 import { Label } from "@/components/ui/label"
-import { applyIPOBranch, getclientdataHO } from "@/api/auth"
+import { applyIPOBranch, getclientdataHO } from "@/lib/auth"
 import { SessionExpiredModal, validateToken } from "@/utils/tokenValidation"
 import { useIPO } from "@/contexts/IPOContext"
 import { useRouter, useSearchParams } from "next/navigation"

@@ -1,6 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 "use client"
-import { branchHolding } from "@/api/auth"
+import { branchHolding } from "@/lib/auth"
 import DashboardLayout from "@/components/Dashboard/dashboard-layout"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { useState, useCallback } from "react"
@@ -13,7 +13,7 @@ import { Label } from "@/components/ui/label"
 import { FileX, Search } from "lucide-react"
 import { columns, isinColumns } from "./columns"
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
-import { isindetails } from "@/api/auth"
+import { isindetails } from "@/lib/auth"
 import { toast } from "sonner"
 import dynamic from "next/dynamic"
 const DataTableArray = dynamic(() => import("@/components/DataTableArray"), {

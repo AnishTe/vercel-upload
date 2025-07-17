@@ -1,6 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 "use client"
-import { getcdslpledge } from "@/api/auth"
+import { getcdslpledge } from "@/lib/auth"
 import { useState, useEffect } from "react"
 import { validateToken } from "@/utils/tokenValidation"
 import { useSearchParams } from "next/navigation"

@@ -14,7 +14,7 @@ import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "
 import { Input } from "@/components/ui/input"
 import { EyeIcon, EyeOffIcon } from "lucide-react"
 
-import { forgotPassword, resetPassword } from "@/api/auth"
+import { forgotPassword, resetPassword } from "@/lib/auth"
 
 const initialSchema = z.object({
     clientId: z.string().min(1, "Client ID is required"),

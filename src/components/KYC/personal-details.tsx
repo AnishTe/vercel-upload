@@ -36,7 +36,7 @@ import { useKYC } from "@/contexts/kyc-context"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import { format } from "date-fns"
 import { Progress } from "@/components/ui/progress"
-import { addBoDetailsKYC, fetchBoDetailsKYC, generateKIDKYC, getKIDResponseKYC, getProfileDetailsKYC, updateProfileTradingDataKYC } from "@/api/auth"
+import { addBoDetailsKYC, fetchBoDetailsKYC, generateKIDKYC, getKIDResponseKYC, getProfileDetailsKYC, updateProfileTradingDataKYC } from "@/lib/auth"
 
 import kycData from "@/data/kyc.json";
 import { Switch } from "../ui/switch"

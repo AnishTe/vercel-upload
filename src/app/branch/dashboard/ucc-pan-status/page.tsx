@@ -1,6 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 "use client"
-import { getUccStatus } from "@/api/auth"
+import { getUccStatus } from "@/lib/auth"
 import DashboardLayout from "@/components/Dashboard/dashboard-layout"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { useState } from "react"

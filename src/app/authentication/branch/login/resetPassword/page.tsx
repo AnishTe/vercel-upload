@@ -12,7 +12,7 @@ import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "
 import { Input } from "@/components/ui/input"
 import { EyeIcon, EyeOffIcon } from "lucide-react"
 
-import { forgotBranchPassword, resetBranchPassword } from "@/api/auth"
+import { forgotBranchPassword, resetBranchPassword } from "@/lib/auth"
 // import { getCompatibleUrl } from "@/utils/url-helpers"
 import { useForm } from "react-hook-form"
 

@@ -18,7 +18,7 @@ import {
   ongoingBuyback,
   getBuybackOrderDetailsBranch,
   deleteBuybackOrderBranch,
-} from "@/api/auth";
+} from "@/lib/auth";
 import { SessionExpiredModal, validateToken } from "@/utils/tokenValidation";
 import DashboardLayout from "@/components/Dashboard/dashboard-layout";
 // import { DataTable } from "@/components/DataTable";

@@ -8,7 +8,7 @@ import $ from "jquery";
 import { toast } from "sonner";
 import { Input } from "@/components/ui/input";
 import { HandCoins, AlertCircle, FileX } from "lucide-react";
-import { applyMtfPledgeBranch, mtfPledgeBranch } from "@/api/auth";
+import { applyMtfPledgeBranch, mtfPledgeBranch } from "@/lib/auth";
 import { SessionExpiredModal, validateToken } from "@/utils/tokenValidation";
 import DashboardLayout from "@/components/Dashboard/dashboard-layout";
 // import { DataTable } from "@/components/DataTable";

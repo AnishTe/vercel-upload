@@ -12,7 +12,7 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { toast } from "sonner"
 import { SegmentedControl } from "../HoldingMismatch/SegmentedControl"
-import { addPortfolio } from "@/api/auth"
+import { addPortfolio } from "@/lib/auth"
 import { SessionExpiredModal, validateToken } from "@/utils/tokenValidation"
 import { format, parseISO } from "date-fns"
 

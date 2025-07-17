@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback, useRef } from "react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { applyforBuyback, buyback } from "@/api/auth"
+import { applyforBuyback, buyback } from "@/lib/auth"
 import { Button } from "@/components/ui/button"
 import DataTableSkeleton from "@/components/DataTable-Skeleton"
 import { toast } from "sonner"

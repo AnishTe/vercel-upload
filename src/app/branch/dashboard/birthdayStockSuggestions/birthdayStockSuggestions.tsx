@@ -10,7 +10,7 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { useForm } from "react-hook-form"
 import { zodResolver } from "@hookform/resolvers/zod"
-import { birthdayAddStock, birthdayRecentStock } from "@/api/auth"
+import { birthdayAddStock, birthdayRecentStock } from "@/lib/auth"
 import { SessionExpiredModal, validateToken } from "@/utils/tokenValidation"
 
 const stockSchema = z.object({

@@ -6,7 +6,7 @@ import {
     getClientsHavingMeAsFamilyMember,
     removeFamilyMember,
     removeMyselfAsFamilyMember,
-} from "@/api/auth"
+} from "@/lib/auth"
 import { SessionExpiredModal, validateToken } from "@/utils/tokenValidation"
 import { getLocalStorage } from "@/utils/localStorage"
 

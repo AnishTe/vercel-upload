@@ -28,7 +28,7 @@ import {
   ongoingBuyback,
   buybackBranch,
   applyforBuybackBranch,
-} from "@/api/auth";
+} from "@/lib/auth";
 import { SessionExpiredModal, validateToken } from "@/utils/tokenValidation";
 // import { AlertCircle } from "lucide-react";
 // import ToastNotification from "@/components/ToastNotification";

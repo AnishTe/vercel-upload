@@ -16,7 +16,7 @@ import {
     DialogTitle,
 } from "@/components/ui/dialog"
 import { ScrollArea } from "@/components/ui/scroll-area"
-import { getActiveSessions, logout } from "@/api/auth"
+import { getActiveSessions, logout } from "@/lib/auth"
 import { SessionExpiredModal, validateToken } from "@/utils/tokenValidation"
 import { getLocalStorage, removeLocalStorage } from "@/utils/localStorage"
 

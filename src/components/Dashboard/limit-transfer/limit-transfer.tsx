@@ -12,7 +12,7 @@ import { ChevronDown, ChevronUp, Info, X } from 'lucide-react'
 import LedgerDataDisplay from '../ledger/LedgerDataDisplay'
 import DashboardLayout from "@/components/Dashboard/dashboard-layout";
 import { SessionExpiredModal, validateToken } from "@/utils/tokenValidation"
-import { getDailyClientLimit, getLedger, getUtradeLimit, setUtradeLimit } from '@/api/auth'
+import { getDailyClientLimit, getLedger, getUtradeLimit, setUtradeLimit } from '@/lib/auth'
 import DecryptedText from '@/components/ui/DecryptedText'
 import DailyLimit from './DailyLimit'
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover'

@@ -1,5 +1,5 @@
 "use client"
-import { emailBounce } from "@/api/auth"
+import { emailBounce } from "@/lib/auth"
 import DashboardLayout from "@/components/Dashboard/dashboard-layout"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"

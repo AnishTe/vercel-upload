@@ -5,7 +5,7 @@ import { useState, useEffect, useCallback, useRef } from "react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { toast } from "sonner"
-import { applyMarginPledge, marginPledge } from "@/api/auth"
+import { applyMarginPledge, marginPledge } from "@/lib/auth"
 import { SessionExpiredModal, validateToken } from "@/utils/tokenValidation"
 import DashboardLayout from "@/components/Dashboard/dashboard-layout"
 import {

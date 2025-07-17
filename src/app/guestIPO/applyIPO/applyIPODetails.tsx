@@ -23,7 +23,7 @@ import {
 import { toast } from "sonner"
 import DecryptedText from "@/components/ui/DecryptedText"
 import { useIPO } from "@/contexts/IPOContext"
-import { getIPOGuest } from "@/api/auth"
+import { getIPOGuest } from "@/lib/auth"
 import { SessionExpiredModal, validateToken } from "@/utils/tokenValidation"
 import Cookies from "js-cookie"
 import { getCompatibleUrl } from "@/utils/url-helpers"

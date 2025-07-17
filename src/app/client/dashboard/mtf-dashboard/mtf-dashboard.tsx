@@ -1,6 +1,6 @@
 "use client"
 
-import { getMtfFundedScripDetails, getMtfMarginSummary, mtfCollateralScripDetails } from "@/api/auth";
+import { getMtfFundedScripDetails, getMtfMarginSummary, mtfCollateralScripDetails } from "@/lib/auth";
 import DashboardLayout from "@/components/Dashboard/dashboard-layout"
 import DataTableSkeleton from "@/components/DataTable-Skeleton";
 

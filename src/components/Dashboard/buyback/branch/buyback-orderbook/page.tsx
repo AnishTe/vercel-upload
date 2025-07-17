@@ -12,7 +12,7 @@ import {
 } from "@/components/ui/select";
 import { Badge } from "@/components/ui/badge";
 import { toast } from "sonner";
-import { ongoingBuyback, getOrderbookDetailsBranch } from "@/api/auth";
+import { ongoingBuyback, getOrderbookDetailsBranch } from "@/lib/auth";
 import { SessionExpiredModal, validateToken } from "@/utils/tokenValidation";
 import DashboardLayout from "@/components/Dashboard/dashboard-layout";
 import { DataTable } from "@/components/DataTable";

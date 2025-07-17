@@ -13,7 +13,7 @@ const DataTableArray = dynamic(() => import("@/components/DataTableArray"), {
 })
 
 import { FileX, RefreshCw, AlertCircle } from "lucide-react"
-import { getTradeDetails } from "@/api/auth"
+import { getTradeDetails } from "@/lib/auth"
 import { columns } from "./columns"
 import { useUser } from "@/contexts/UserContext"
 import { useSearchParams } from "next/navigation"

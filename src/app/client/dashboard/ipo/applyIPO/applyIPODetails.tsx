@@ -21,7 +21,7 @@ import {
     DialogTitle,
     DialogFooter,
 } from "@/components/ui/dialog"
-import { applyIPOClient, getClientData } from "@/api/auth"
+import { applyIPOClient, getClientData } from "@/lib/auth"
 import DashboardLayout from "@/components/Dashboard/dashboard-layout"
 import { useIPO } from "@/contexts/IPOContext"
 import { Skeleton } from "@/components/ui/skeleton"

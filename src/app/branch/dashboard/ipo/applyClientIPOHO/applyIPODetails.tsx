@@ -22,7 +22,7 @@ import {
     DialogFooter,
 } from "@/components/ui/dialog"
 import { toast } from "sonner"
-import { getclientdataHO, applyIPOHO } from "@/api/auth"
+import { getclientdataHO, applyIPOHO } from "@/lib/auth"
 import DashboardLayout from "@/components/Dashboard/dashboard-layout"
 import { useIPO } from "@/contexts/IPOContext"
 import { Skeleton } from "@/components/ui/skeleton"

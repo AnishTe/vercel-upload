@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useState, useMemo } from "react"
-import { getGlobalPortFolio } from "@/api/auth"
+import { getGlobalPortFolio } from "@/lib/auth"
 import { SessionExpiredModal, validateToken } from "@/utils/tokenValidation"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { columns } from "./columns"

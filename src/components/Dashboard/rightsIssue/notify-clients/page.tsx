@@ -8,7 +8,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { toast } from "sonner"
-import { ongoingRightsIssue, rightsissueUpload, rightsIssueLog } from "@/api/auth"
+import { ongoingRightsIssue, rightsissueUpload, rightsIssueLog } from "@/lib/auth"
 import { SessionExpiredModal, validateToken } from "@/utils/tokenValidation"
 import DashboardLayout from "@/components/Dashboard/dashboard-layout"
 import DataTableSkeleton from "@/components/DataTable-Skeleton"

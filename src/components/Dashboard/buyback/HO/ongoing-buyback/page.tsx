@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback, useRef } from "react"
 import { EyeIcon, PlusCircle } from "lucide-react"
-import { ongoingBuybacksConfig, addBuyback, editBuyback } from "@/api/auth"
+import { ongoingBuybacksConfig, addBuyback, editBuyback } from "@/lib/auth"
 import DashboardLayout from "@/components/Dashboard/dashboard-layout"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"

@@ -1,5 +1,5 @@
 "use client"
-import { syncDataForAllClients, syncDataForClient, uccDetails, uploadToBSE, uploadToNSE } from "@/api/auth"
+import { syncDataForAllClients, syncDataForClient, uccDetails, uploadToBSE, uploadToNSE } from "@/lib/auth"
 import type React from "react"
 
 import DashboardLayout from "@/components/Dashboard/dashboard-layout"

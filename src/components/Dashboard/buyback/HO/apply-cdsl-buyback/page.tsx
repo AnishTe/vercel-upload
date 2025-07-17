@@ -15,7 +15,7 @@ import {
 } from "@/components/ui/select";
 import { Badge } from "@/components/ui/badge";
 import { toast } from "sonner";
-import { ongoingBuyback, BuybackHO, applyforBuybackHO } from "@/api/auth";
+import { ongoingBuyback, BuybackHO, applyforBuybackHO } from "@/lib/auth";
 import { SessionExpiredModal, validateToken } from "@/utils/tokenValidation";
 import DashboardLayout from "@/components/Dashboard/dashboard-layout";
 import DataTableSkeleton from "@/components/DataTable-Skeleton";

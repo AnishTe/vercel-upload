@@ -9,7 +9,7 @@ import { useUser } from "@/contexts/UserContext"
 import IPOList from "@/components/Dashboard/ipo/IPOList"
 import { useState } from "react"
 import { SessionExpiredModal, validateToken } from "@/utils/tokenValidation"
-import { syncCronIPO } from "@/api/auth"
+import { syncCronIPO } from "@/lib/auth"
 import { toast } from "sonner"
 
 export default function AllIPOsPage() {

@@ -8,7 +8,7 @@ import "datatables.net";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { toast } from "sonner";
-import { applyMarginPledgeBranch, marginPledgeBranch } from "@/api/auth";
+import { applyMarginPledgeBranch, marginPledgeBranch } from "@/lib/auth";
 import { SessionExpiredModal, validateToken } from "@/utils/tokenValidation";
 import DashboardLayout from "@/components/Dashboard/dashboard-layout";
 import { HandCoins, AlertCircle, FileX, RefreshCw } from "lucide-react";

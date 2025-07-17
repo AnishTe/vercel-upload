@@ -4,7 +4,7 @@ import type React from "react"
 
 import { useState, useEffect, useCallback, useRef } from "react"
 import { PlusCircle } from "lucide-react"
-import { empDetails, addEmployee, editEmployee, changeEmployeePassword } from "@/api/auth"
+import { empDetails, addEmployee, editEmployee, changeEmployeePassword } from "@/lib/auth"
 import DashboardLayout from "@/components/Dashboard/dashboard-layout"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"

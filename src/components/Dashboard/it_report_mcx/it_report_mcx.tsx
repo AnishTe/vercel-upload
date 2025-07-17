@@ -41,7 +41,7 @@ import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip
 import ExpensesDisplay from "@/components/Dashboard/ReusableComponents/ExpensesDisplays"
 
 import dynamic from "next/dynamic";
-import { annualPLMCX } from "@/api/auth"
+import { annualPLMCX } from "@/lib/auth"
 import { columns } from "./columns"
 
 const DataTableArray = dynamic(() => import("@/components/DataTableArray"), { ssr: false, loading: () => <DataTableSkeleton columns={4} rows={10} /> });

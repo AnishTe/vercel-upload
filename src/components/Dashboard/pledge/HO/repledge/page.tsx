@@ -1,5 +1,5 @@
 "use client"
-import { repledge, cancelPledgeOrder, generateRepledgeFile } from "@/api/auth"
+import { repledge, cancelPledgeOrder, generateRepledgeFile } from "@/lib/auth"
 import DashboardLayout from "@/components/Dashboard/dashboard-layout"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { useState, useEffect, useCallback, useRef } from "react"

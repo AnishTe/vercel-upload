@@ -16,7 +16,7 @@ import {
   getCDSLOtherBuybackOrdersBranch,
   applyforCDSLOtherBuybackBranch,
   deleteCDSLOtherBuybackOrdersBranch
-} from "@/api/auth"
+} from "@/lib/auth"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
 import { SessionExpiredModal, validateToken } from "@/utils/tokenValidation"
 import DashboardLayout from "@/components/Dashboard/dashboard-layout"

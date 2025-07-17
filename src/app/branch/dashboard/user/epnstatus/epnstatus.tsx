@@ -1,5 +1,5 @@
 "use client"
-import { epnstatus } from "@/api/auth"
+import { epnstatus } from "@/lib/auth"
 import DashboardLayout from "@/components/Dashboard/dashboard-layout"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { useState } from "react"

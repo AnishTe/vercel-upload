@@ -8,7 +8,7 @@ import { columns } from "./columns"
 import { toast } from "sonner"
 import DashboardLayout from "@/components/Dashboard/dashboard-layout"
 import DataTableSkeleton from "@/components/DataTable-Skeleton"
-import { deleteOrderIPOClient, viewAppliedIPOClient } from "@/api/auth"
+import { deleteOrderIPOClient, viewAppliedIPOClient } from "@/lib/auth"
 import { SessionExpiredModal, validateToken } from "@/utils/tokenValidation"
 import {
     Dialog,

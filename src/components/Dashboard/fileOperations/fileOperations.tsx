@@ -1,7 +1,7 @@
 "use client"
 
 import { FileText, Calendar } from "lucide-react"
-import { eodAllocationFileGeneration, epiAdhockLimitFileGenereration, mergeCollateralFiles } from "@/api/auth"
+import { eodAllocationFileGeneration, epiAdhockLimitFileGenereration, mergeCollateralFiles } from "@/lib/auth"
 import OperationDashboard from "@/components/operation-dashboard"
 
 export default function FileOperations() {

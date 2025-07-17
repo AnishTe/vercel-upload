@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { getLedger } from "@/api/auth";
+import { getLedger } from "@/lib/auth";
 import DashboardLayout from "@/components/Dashboard/dashboard-layout";
 import { SessionExpiredModal, validateToken } from "@/utils/tokenValidation"
 import LedgerDataDisplay from "./LedgerDataDisplay";

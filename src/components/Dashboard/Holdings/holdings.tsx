@@ -13,7 +13,7 @@ import { Form, FormControl, FormField, FormItem, FormMessage } from "@/component
 import { format } from "date-fns"
 import * as z from "zod"
 import { zodResolver } from "@hookform/resolvers/zod"
-import { fetchHoldings } from "@/api/auth"
+import { fetchHoldings } from "@/lib/auth"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 
 import { SessionExpiredModal, validateToken } from "@/utils/tokenValidation"

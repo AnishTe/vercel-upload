@@ -9,7 +9,7 @@ import { columns, hiddenColumns } from "@/components/Dashboard/AnnualPL_Summary/
 import DashboardLayout from "@/components/Dashboard/dashboard-layout"
 import DataTableSkeleton from "@/components/DataTable-Skeleton"
 
-import { annualPLSummary } from "@/api/auth"
+import { annualPLSummary } from "@/lib/auth"
 
 import { toast } from "sonner"
 import { SessionExpiredModal, validateToken } from "@/utils/tokenValidation"

@@ -1,5 +1,5 @@
 "use client"
-import { epnprocessedrecords } from "@/api/auth"
+import { epnprocessedrecords } from "@/lib/auth"
 import DashboardLayout from "@/components/Dashboard/dashboard-layout"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { useState, useEffect } from "react"

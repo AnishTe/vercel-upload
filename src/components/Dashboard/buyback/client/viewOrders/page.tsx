@@ -1,6 +1,6 @@
 "use client"
 import { useCallback, useRef } from "react"
-import { viewClientOrders, deleteOrders } from "@/api/auth"
+import { viewClientOrders, deleteOrders } from "@/lib/auth"
 import DashboardLayout from "@/components/Dashboard/dashboard-layout"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { useState, useEffect } from "react"

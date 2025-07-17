@@ -19,7 +19,7 @@ import {
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
 import { Checkbox } from "@/components/ui/checkbox"
 import DashboardLayout from "@/components/Dashboard/dashboard-layout"
-import { applyMarginPledgeHO, marginPledgeHO } from "@/api/auth"
+import { applyMarginPledgeHO, marginPledgeHO } from "@/lib/auth"
 import { SessionExpiredModal, validateToken } from "@/utils/tokenValidation"
 import DataTableSkeleton from "@/components/DataTable-Skeleton"
 import { useMediaQuery } from "@/hooks/use-media-query"

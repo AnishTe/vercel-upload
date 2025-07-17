@@ -13,7 +13,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form"
 import { Input } from "@/components/ui/input"
 import { EyeIcon, EyeOffIcon } from "lucide-react"
-import { login, sendOtp, loginWithOtp, odinLogin } from "@/api/auth"
+import { login, sendOtp, loginWithOtp, odinLogin } from "@/lib/auth"
 import { getCompatibleUrl } from "@/utils/url-helpers"
 import { getLocalStorage, removeLocalStorage, setLocalStorage } from "@/utils/localStorage"
 

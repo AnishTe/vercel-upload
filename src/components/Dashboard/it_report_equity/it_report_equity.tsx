@@ -4,7 +4,7 @@
 import { useCallback, useEffect, useState, useMemo, useRef } from "react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import DataTableSkeleton from "@/components/DataTable-Skeleton"
-import { annualPL } from "@/api/auth"
+import { annualPL } from "@/lib/auth"
 import { toast } from "sonner"
 import { SessionExpiredModal, validateToken } from "@/utils/tokenValidation"
 import ExpensesDisplay from "@/components/Dashboard/ReusableComponents/ExpensesDisplays"

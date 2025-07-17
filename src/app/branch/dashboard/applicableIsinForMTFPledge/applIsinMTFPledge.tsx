@@ -4,7 +4,7 @@ import type React from "react"
 
 import { useState, useEffect, useCallback, useRef } from "react"
 import { PlusCircle, EyeIcon, Search, RefreshCw, BarChart3, CheckCircle2, AlertCircle } from "lucide-react"
-import { getApplIsinMTFPledgeView, addAddApplIsinMTFPledge, editApplIsinMTFPledge } from "@/api/auth"
+import { getApplIsinMTFPledgeView, addAddApplIsinMTFPledge, editApplIsinMTFPledge } from "@/lib/auth"
 import DashboardLayout from "@/components/Dashboard/dashboard-layout"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"

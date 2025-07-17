@@ -1,5 +1,5 @@
 "use client"
-import { emailTemplateHistory, downloadAttachment } from "@/api/auth"
+import { emailTemplateHistory, downloadAttachment } from "@/lib/auth"
 import type React from "react"
 
 import DashboardLayout from "@/components/Dashboard/dashboard-layout"

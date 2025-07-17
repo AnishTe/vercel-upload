@@ -1,5 +1,5 @@
 "use client"
-import { viewClientDetails } from "@/api/auth"
+import { viewClientDetails } from "@/lib/auth"
 import type React from "react"
 
 import DashboardLayout from "@/components/Dashboard/dashboard-layout"

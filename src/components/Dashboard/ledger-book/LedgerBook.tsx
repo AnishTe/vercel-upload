@@ -22,7 +22,7 @@ import { Skeleton } from "@/components/ui/skeleton"
 import DecryptedText from "@/components/ui/DecryptedText"
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog"
 
-import { crSauda, ledgerBook } from "@/api/auth"
+import { crSauda, ledgerBook } from "@/lib/auth"
 import { SessionExpiredModal, validateToken } from "@/utils/tokenValidation"
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
 import { Label } from "@/components/ui/label"

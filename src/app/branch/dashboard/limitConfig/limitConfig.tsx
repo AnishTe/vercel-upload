@@ -4,7 +4,7 @@ import type React from "react"
 
 import { useState, useEffect, useCallback, useRef } from "react"
 import { PlusCircle, EyeIcon, Download, FileSpreadsheet, FileIcon as FilePdf } from "lucide-react"
-import { getLimitConfig, addLimitConfig, editLimitConfig } from "@/api/auth"
+import { getLimitConfig, addLimitConfig, editLimitConfig } from "@/lib/auth"
 import DashboardLayout from "@/components/Dashboard/dashboard-layout"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"

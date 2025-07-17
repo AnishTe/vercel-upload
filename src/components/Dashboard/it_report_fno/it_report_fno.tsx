@@ -35,7 +35,7 @@ import DashboardLayout from "@/components/Dashboard/dashboard-layout"
 import DataTableSkeleton from "@/components/DataTable-Skeleton"
 import DecryptedText from "@/components/ui/DecryptedText"
 
-import { annualPLFNO } from "@/api/auth"
+import { annualPLFNO } from "@/lib/auth"
 
 import { toast } from "sonner"
 import { SessionExpiredModal, validateToken } from "@/utils/tokenValidation"

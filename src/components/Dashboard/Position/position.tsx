@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { columns } from "./columns"
-import { position } from "@/api/auth"
+import { position } from "@/lib/auth"
 import { withTokenValidation, validateTokenEnhanced, type ValidationResult } from "@/utils/withTokenValidation"
 import DashboardLayout from "@/components/Dashboard/dashboard-layout"
 import DataTableSkeleton from "@/components/DataTable-Skeleton"

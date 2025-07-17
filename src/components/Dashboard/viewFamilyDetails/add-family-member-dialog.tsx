@@ -16,7 +16,7 @@ import { Plus, UserPlus, Loader2, AlertCircle, Shield, CheckCircle2 } from "luci
 import { SessionExpiredModal, validateToken } from "@/utils/tokenValidation"
 import { Alert, AlertDescription } from "@/components/ui/alert"
 import { ScrollArea } from "@/components/ui/scroll-area"
-import { addFamilyMemberGetOtp, addFamilyMemberVerifyOtp } from "@/api/auth"
+import { addFamilyMemberGetOtp, addFamilyMemberVerifyOtp } from "@/lib/auth"
 import { getLocalStorage } from "@/utils/localStorage"
 import { toast } from "sonner";
 

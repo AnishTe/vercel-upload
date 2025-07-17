@@ -4,7 +4,7 @@ import type React from "react"
 
 import { useState, useEffect, useCallback, useRef } from "react"
 import { PlusCircle, EyeIcon, Download, FileSpreadsheet, FileIcon as FilePdf, Search, RefreshCw } from "lucide-react"
-import { getFoInterestRate, addFoInterestRate, editFoInterestRate } from "@/api/auth"
+import { getFoInterestRate, addFoInterestRate, editFoInterestRate } from "@/lib/auth"
 import DashboardLayout from "@/components/Dashboard/dashboard-layout"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
